@@ -1,0 +1,55 @@
+:root {
+    --header-color: #5FA8D3;
+    --background-color: #cae9ff;
+    --text-color: #1b4965;
+    --accent-color: #62b6cb;
+}
+
+main {
+    max-width: 840px;
+}
+
+div {
+    position: relative;
+    border: var(--accent-color);
+}
+
+div h1{
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: var(--accent-color)
+}
+
+div img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: var(--header-color);
+    font-family: bebas neue, serif;
+}
+
+h2 {
+    color: var(--header-color);
+    font-family: bebas neue, serif;
+}
+
+p {
+    color: var(--text-color);
+    font-family: 'quicksand', sans-serif;
+}
+
+footer nav {
+    text-decoration: none;
+}
