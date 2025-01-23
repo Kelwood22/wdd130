@@ -12,6 +12,7 @@ h1 {
     position: absolute;
     top: 25px;
     left: 200px;
+    padding: 5px;
     background-color: var(--background-color);
 }
 
@@ -50,6 +51,7 @@ article {
 
 article img {
     float: right;
+    margin: 10px;
     width: 150px;
     height: auto;
     border: var(--accent-color)
