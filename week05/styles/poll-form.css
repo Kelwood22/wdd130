@@ -1,0 +1,122 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.roboto-condensed-light {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", serif;
+    font-size: 1.3rem;
+    color: navy;
+    background: lightskyblue;
+}
+
+header {
+    font-family: "Bebas Neue", serif;
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(8, 1, 31, 0.1);
+    border-radius: 1rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid rgba(8, 1, 31, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: "Bebas Neue", serif;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    font-family: "Roboto Condensed", serif;
+    font-size: 1.5rem;
+    background-color: lightskyblue;
+    color: navy;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid navy;
+}
+
+button:hover {
+    background-color: lightseagreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 600px;
+    text-align: center;
+    font-size: 1rem;
+    color: navy;
+    border-top: 1px solid navy;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
