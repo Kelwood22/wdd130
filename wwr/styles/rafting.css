@@ -45,6 +45,11 @@ h1 {
     background-color: var(--background-color);
 }
 
+.hero-contact-header {
+    position: relative;
+    bottom: 60px;
+}
+
 main {
     width: 100%;
 }
@@ -110,7 +115,7 @@ main {
 
 .map {
     border: 2px solid var(--text-color);
-    
+
 }
 
 .text-container {
