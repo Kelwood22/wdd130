@@ -32,7 +32,7 @@ header nav {
     height: auto;
 }
 
-h1 {
+.hero {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -46,8 +46,16 @@ h1 {
 }
 
 .hero-contact-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-family: 'bebas neue', serif;
     position: relative;
-    bottom: 60px;
+    top: 20px;
+    width: 100%;
+    padding: 5px;
+    background-color: var(--background-color);
 }
 
 main {
