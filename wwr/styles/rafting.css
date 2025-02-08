@@ -84,21 +84,21 @@ main {
     border: var(--accent-color)
 }
 
-.history {
+.history, .contact_info {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
     padding: 20px;
 }
 
-.history-header {
+.history-header, .contact_info-header {
     margin-bottom: 20px;
     font-family: 'bebas neue', serif;
-    color: var(--header-color);
+    color: var(--text-color);
     background-color: var(--background-color);
 }
 
-.text-image-container {
+.text-image-container, .our-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,6 +106,11 @@ main {
     font-family: 'quicksand', sans-serif;
     color: var(--text-color);
     background-color: white;
+}
+
+.map {
+    border: 2px solid var(--text-color);
+    
 }
 
 .text-container {
@@ -123,15 +128,15 @@ main {
     height: auto;
 }
 
-.adventure {
+.adventure, .contact-form, .team {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
 }
 
-.adventure-header {
+.adventure-header, .contact-header, .team-header {
     margin-bottom: 20px;
-    color: var(--header-color);
+    color: var(--text-color);
     font-family: 'bebas neue', serif;
     background-color: var(--background-color);
 }
@@ -165,6 +170,71 @@ main {
     font-family: 'quicksand', sans-serif;
 }
 
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid var(--text-color);
+    background-color: var(--background-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid var(--text-color);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1rem;
+    font-family: 'bebas neue', serif;
+}
+
+label, input, button, textarea {
+    font-family: 'quicksand', sans-serif;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="radio"] {
+    width: 12px;
+    height: 12px;
+    vertical-align: center;
+}
+
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    vertical-align: bottom;
+}
+
+button {
+    font-family: 'bebas neue', serif;
+    font-size: 1.2rem;
+    background-color: var(--accent-color);
+    color: black;
+    margin: .5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--background-color);
+}
+
+button:hover {
+    background-color: var(--text-color);
+    color: var(--accent-color);
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -176,6 +246,13 @@ footer {
     background-color: var(--background-color);
     font-family: 'quicksand', sans-serif;
     margin-top: 20px;
+}
+
+.wireframe {
+    flex: 1;
+    text-align: center;
+    position: absolute;
+    margin-top: 60px;
 }
 
 .footer-text {
